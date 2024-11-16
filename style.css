@@ -100,7 +100,7 @@ form button:hover {
 /* Mobile Adjustments */
 @media (max-width: 768px) {
     body {
-        background-size: contain; /* Adjust background size for mobile */
+        background-size: cover; /* Adjust background size for mobile */
         background-position: top center; /* Adjust position */
         background-attachment: scroll; /* Allow scrolling for better performance on mobile */
         background-repeat: no-repeat; /* Reiterate no-repeat for mobile */
