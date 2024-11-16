@@ -3,32 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mark Younce - Coming Soon</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-        }
-        div {
-            text-align: center;
-        }
-        h1 {
-            color: #333;
-        }
-        p {
-            color: #666;
-        }
-    </style>
+    <title>Mark Younce - Author Website</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <h1>Mark Younce</h1>
-        <p>Website Coming Soon! Stay tuned for updates.</p>
-    </div>
+    <!-- About Me Section -->
+    <section id="about">
+        <h1>About Me</h1>
+        <p>Write a brief introduction about yourself here.</p>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications">
+        <h2>Publications</h2>
+        <ul>
+            <li>Title 1 - <a href="#">Read more</a></li>
+            <li>Title 2 - <a href="#">Read more</a></li>
+        </ul>
+    </section>
+
+    <!-- Upcoming Publications Section -->
+    <section id="upcoming">
+        <h2>Upcoming Publications</h2>
+        <p>Highlight works in progress or upcoming releases here.</p>
+    </section>
+
+    <!-- Updates Section -->
+    <section id="updates">
+        <h2>Updates</h2>
+        <p>Share news, announcements, or upcoming events here.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <br>
+            <button type="submit">Send</button>
+        </form>
+    </section>
 </body>
 </html>
