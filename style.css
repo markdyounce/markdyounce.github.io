@@ -60,11 +60,15 @@ textarea {
 }
 
 button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
     background-color: #007BFF;
     color: white;
-    border: none;
+    font-size: 16px;
+    border-radius: 5px;
     cursor: pointer;
-    font-weight: bold;
 }
 
 button:hover {
