@@ -1,20 +1,23 @@
 /* General Styles */
 body {
-    background-color: #f4f4f9;
-    font-family: Arial, sans-serif;
-    color: #333;
-    margin: 0;
+    background-image: url('AuthorWebpageStockPhoto.webp');
+    background-size: cover; /* Make the image cover the entire screen */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Keeps the background static while scrolling */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    font-family: Arial, sans-serif; /* Maintain readability */
+    margin: 0; /* Remove default browser margins */
     padding: 0;
 }
 
 /* Section Styling */
-section {
-    padding: 40px 20px;
-    margin: 20px auto;
-    max-width: 800px;
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+.section {
+    background-color: rgba(255, 255, 255, 0.75); /* Semi-transparent white */
+    padding: 20px; /* Add space inside the section */
+    margin: 20px auto; /* Center sections with some spacing */
+    max-width: 800px; /* Set a maximum width for readability */
+    border-radius: 10px; /* Add rounded corners for a modern look */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
 }
 
 h1, h2 {
