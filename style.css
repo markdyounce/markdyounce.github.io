@@ -84,3 +84,37 @@ form button {
 form button:hover {
     background-color: #0056b3;
 }
+
+/* Mobile Adjustments */
+@media (max-width: 768px) {
+    body {
+        background-size: contain; /* Adjust background size for mobile */
+        background-position: top center; /* Adjust position */
+    }
+
+    .hero {
+        padding: 50px 10px; /* Smaller padding for hero section */
+    }
+
+    .hero h1 {
+        font-size: 2.5rem; /* Adjust hero title size */
+    }
+
+    .hero p {
+        font-size: 1rem; /* Adjust hero subtitle size */
+    }
+
+    section {
+        padding: 15px;
+        margin: 15px auto;
+    }
+
+    section h2 {
+        font-size: 1.8em; /* Slightly smaller headers */
+    }
+
+    form input, form textarea, form button {
+        padding: 8px; /* Smaller inputs and buttons */
+        font-size: 0.9rem;
+    }
+}
