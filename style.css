@@ -17,13 +17,14 @@ h1, h2 {
 }
 
 /* Section Headers Specific Styling */
-section h2 {
-    color: #f5e9c8; /* Matching the light yellow tone */
+h2 {
+    font-family: 'Georgia', serif;
+    color: #d4a847; /* A darker golden shade for better contrast */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Slight shadow for depth */
     text-align: center;
     margin-bottom: 10px;
     font-size: 2em;
     font-weight: bold;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* A slightly more subtle shadow */
 }
 
 /* Hero Section */
@@ -101,6 +102,7 @@ form button:hover {
     body {
         background-size: contain; /* Adjust background size for mobile */
         background-position: top center; /* Adjust position */
+        background-attachment: scroll; /* Allow scrolling for better performance on mobile */
     }
 
     .hero {
